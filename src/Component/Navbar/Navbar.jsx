@@ -11,7 +11,7 @@ function Navbar() {
     <>
       <header>
         <Nav className=" ">
-          <Name className=" text-2xl md:text-4xl lg:text-6xl font-semibold ">PORTFOLIO</Name>
+          <Name className=" text-2xl md:text-3xl lg:text-4xl font-semibold ">PORTFOLIO</Name>
           <Navitems>
             <Link
               to="home"
@@ -22,7 +22,7 @@ function Navbar() {
               duration={500}
             >
               <GoHomeFill className="hidden " />
-              <li className="list-none  cursor-pointer flex items-center gap-1 text-xl md:text-3xl lg:text-4xl ">
+              <li className="list-none  cursor-pointer flex items-center gap-1 text-lg md:text-xl lg:text-2xl ">
                 Home
               </li>
             </Link>
@@ -35,7 +35,7 @@ function Navbar() {
               duration={500}
             >
               <FaUser className="hidden" />{" "}
-              <li className="list-none  cursor-pointer text-xl md:text-3xl lg:text-4xl"> About</li>
+              <li className="list-none  cursor-pointer text-lg md:text-xl lg:text-2xl"> About</li>
             </Link>
             <Link
               to="skill"
@@ -46,7 +46,7 @@ function Navbar() {
               duration={500}
             >
               <GiArcher className="hidden" />
-              <li className="list-none  cursor-pointer text-xl md:text-3xl lg:text-4xl">Skills</li>
+              <li className="list-none  cursor-pointer text-lg md:text-xl lg:text-2xl">Skills</li>
             </Link>
             <Link
               to="project"
@@ -57,7 +57,7 @@ function Navbar() {
               duration={500}
             >
               <FaFilePowerpoint className="hidden" />
-              <li className="list-none  cursor-pointer text-xl md:text-3xl lg:text-4xl">Project</li>
+              <li className="list-none  cursor-pointer text-lg md:text-xl lg:text-2xl">Project</li>
             </Link>
             <Link
               to="contact"
@@ -68,7 +68,7 @@ function Navbar() {
               duration={500}
             >
               <MdContactPhone className="hidden" />
-              <li className="list-none  cursor-pointer text-xl md:text-3xl lg:text-4xl"> Contact</li>
+              <li className="list-none  cursor-pointer text-lg md:text-xl lg:text-2xl"> Contact</li>
             </Link>
           </Navitems>
         </Nav>

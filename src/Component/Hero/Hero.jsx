@@ -31,7 +31,7 @@ export function Hero() {
 
         <Main>
           <About data-aos="fade-right">
-            <h1 className=" text-5xl mb-0 ">
+            <h1 className=" text-3xl mb-0 ">
               Hello! 
               <br/>
               I'm <span>Olawale Fakorede</span>
