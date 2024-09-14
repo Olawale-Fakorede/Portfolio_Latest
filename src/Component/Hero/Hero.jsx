@@ -38,10 +38,10 @@ export function Hero() {
             </h1>
             <h2 id="h2" className="mb-0 ">
               And I'm {" "}
-              <span className="typedeffect text-2xl md:text-2xl lg:text-5xl">
+              <span className="typedeffect text-xl md:text-2xl lg:text-3xl">
                 <Typewriter
                   className="  xs:text-yellow-400"
-                  words={["Full Stack Developer", "Frontend Developer", "Tutor", "Backend Developer"]}
+                  words={[" Full Stack Developer", " Frontend Developer", " Backend Developer", "also a Tutor"]} 
                   loop={false}
                   cursor
                   cursorStyle=""
@@ -51,9 +51,10 @@ export function Hero() {
                 />
               </span>
             </h2>
-            <p className="text-sm md:text-lg lg:text-4xl  mb-9">
+            <p className="text-sm md:text-lg lg:text-xl  mb-9">
               Hi!!, i am a passionate frontend developer . 
-              A Frontend Developer focuses on creating and optimizing the user-facing aspects of websites, ensuring they are visually appealing and user-friendly.
+              A Frontend Developer focuses on creating and optimizing the user-facing aspects of websites, 
+              ensuring they are visually appealing and user-friendly.
              
             </p>
             <a
@@ -73,7 +74,7 @@ export function Hero() {
             src="./Image/image1.jpg"
             alt=""
             className="aspect-square
-            w-1/3 rounded-full mt-24 border-4 border-solid"
+            w-1/3 rounded-full mt-24 border-4 border-groove"
           />
         </Main>
       </HeroContainer>

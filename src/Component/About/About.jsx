@@ -8,10 +8,10 @@ function About() {
     <>
       <AboutContainer id="about">
         <AboutWrapper>
-          <img src="./Image/My_Image.png" alt="" data-aos="fade-right" />
+          <img src="./Image/My_Image.png" alt="" data-aos="fade-right" className="h-auto w-1/2"/>
           <AboutPart data-aos="fade-left">
             <h1 >About Me</h1>
-            <p className="text-lg md:text-2xl lg:text-4xl">
+            <p className="text-lg md:text-xl lg:text-2xl">
             As a Full-Stack Developer, I specialize in creating the visual and interactive elements of websites and web applications. 
             I ensure a seamless and responsive user experience across various devices and browsers by building user interfaces. 
             I collaborate with designers to implement designs and develop servers, as a backend developers I integrate server-side logic. 
@@ -70,8 +70,8 @@ const AboutContainer = styled.div`
   margin: 0 auto;
 
   img {
-    width: 45%;
-    height: 5%
+    // width: 60%;
+    // height: 400px
     aspect-ratio: 1/1;
     border-radius: 20px;
   }

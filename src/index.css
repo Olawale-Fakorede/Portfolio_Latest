@@ -5,8 +5,8 @@
 :root{
     --theme:red;
     --text-color:white;
-    /* --bg-color: rgba(0, 0, 0, 0.753); */
-    background-image: radial-gradient(circle, grey, black, rgba(0, 128, 0, 0.459));
+    --bg-color: rgba(0, 0, 0, 0.753);
+    /* background-image: radial-gradient(circle, grey, black, rgba(0, 128, 0, 0.459)); */
     /* background-image: repeating-radial-gradient(black, grey 10%, black 15%); */
     --box-shadow: rgba(var(--theme), 0.25) 0px 54px 55px, 
                   rgba(var(--theme), 0.12) 0px -12px 30px, 
