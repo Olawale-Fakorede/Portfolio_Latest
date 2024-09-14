@@ -6,7 +6,7 @@ function Skill() {
   return (
     <>
       <SkillContainer id="skill">
-        <h1 className=" text-center text-lg md:text-2xl lg:text-4xl" data-aos="flip-down">
+        <h1 className=" text-center text-lg md:text-xl lg:text-2xl" data-aos="flip-down">
           Skills
         </h1>
         <p>
@@ -51,7 +51,7 @@ const SkillContainer = styled.div`
   h1 {
     text-transform: uppercase;
     text-shadow: 0 0 3px var(--text-color);
-    font-size: 50px;
+    font-size: 35px;
   }
   p {
     text-align: center;
@@ -59,7 +59,7 @@ const SkillContainer = styled.div`
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-size: 30px
+    font-size: 20px
   }
 `;
 
@@ -83,8 +83,8 @@ const SkillCard = styled.div`
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
-  width: 600px;
+  height: 550px;
+  width: 500px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -123,7 +123,7 @@ const Skills = styled.div`
   span {
     cursor: pointer;
     border: 1px solid rgba(72, 72, 72, 1);
-    padding: 20px 40px;
+    padding: 10px 25px;
     border-radius: 30px;
     justify-items: center;
   }
