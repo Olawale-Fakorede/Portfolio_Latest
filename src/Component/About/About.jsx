@@ -8,14 +8,15 @@ function About() {
     <>
       <AboutContainer id="about">
         <AboutWrapper>
-          <img src="./Image/My_Image.png" alt="" data-aos="fade-right" className="h-auto w-1/2"/>
+          <img src="./Image/My_Image.png" alt="" data-aos="fade-right" className="h-auto w-2/4"/>
           <AboutPart data-aos="fade-left">
             <h1 >About Me</h1>
-            <p className="text-lg md:text-xl lg:text-2xl">
+            <p className="text-sm md:text-lg lg:text-lg">
             As a Full-Stack Developer, I specialize in creating the visual and interactive elements of websites and web applications. 
             I ensure a seamless and responsive user experience across various devices and browsers by building user interfaces. 
             I collaborate with designers to implement designs and develop servers, as a backend developers I integrate server-side logic. 
-            My focus is on performance optimization, accessibility, and maintaining clean, efficient code.
+            My focus is on performance optimization, accessibility, and maintaining clean, efficient code. I have great strength in backend 
+            web development. Creating a well structured database server.
             </p>
 
             
@@ -37,18 +38,18 @@ function About() {
             ) : activeSection === "education" ? (
               <Education>
                 <ul className="list">
-                  <li className="list-items"></li>
-                  <li className="list-items"></li>
-                  <li className="list-items"> </li>
+                  <li className="list-items">Larva Coding Academy (Full Stack Web Dvelopment)</li>
+                  <li className="list-items">Federal College of Agriculture, Ibadan. (HND Agric & Env. Engineering)</li>
+                  <li className="list-items">Federal College of Agriculture, Ibadan. (OND Agric Engineering)</li>
                   <li className="list-items"> </li>
                 </ul>
               </Education>
             ) : (
               <Other>
                 <ul className="list">
-                  <li className="list-items"> </li>
-                  <li className="list-items"> </li>
-                  <li className="list-items"> </li>
+                  <li className="list-items"> Learning new things</li>
+                  <li className="list-items"> Politics</li>
+                  <li className="list-items"> Agriculture</li>
                   <li className="list-items"> </li>
                 </ul>
               </Other>
@@ -107,7 +108,7 @@ const AboutWrapper = styled.div`
   }
 `;
 const AboutPart = styled.div`
-  width: 50%;
+  width: 40%;
 
   h1 {
     all: unset;

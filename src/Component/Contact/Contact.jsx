@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { IoMdMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
-import { Button } from "../Hero/Hero";
+// import { Button } from "../Hero/Hero";
 import { FaXTwitter } from "react-icons/fa6";
 
 function Contact() {
@@ -18,8 +18,8 @@ function Contact() {
             <h1>Discuss your Projects with me</h1>
             <p>
             For inquiries or collaborations, feel free to reach out to me. 
-            I'm available to discuss any frontend development projects, answer questions, or explore new opportunities. 
-            Let's connect and see how we can work together to create exceptional user experiences.
+            I am available to discuss any backend or frontend development projects, answer questions, or explore new opportunities. 
+            Let us connect and see how we can work together to create exceptional user experiences.
             </p>
             <div className="contact">
               <span>
@@ -40,19 +40,19 @@ function Contact() {
             </div>
           </LeftSide>
           <RightSide data-aos="fade-left">
-            <div className=" relative w-full">
+            {/* <div className=" relative w-full">
               <label htmlFor="name" className=" absolute  mt-[-0.7rem] ml-2 bg-black pl-2 pr-2">Your Name</label>
               <FormInput type="text" name="name" id="" />
-            </div>
-            <div className=" relative w-full">
+            </div> */}
+            {/* <div className=" relative w-full">
               <label htmlFor="mail" className=" absolute  mt-[-0.7rem] ml-2 bg-black pl-2 pr-2">Your Mail</label>
               <FormInput type="text" name="mail" id="" />
-            </div>
+            </div> */}
         
             <textarea name="" id=""></textarea>
           </RightSide>
         </form>
-        <Button> Send</Button>
+        {/* <Button> Send</Button> */}
       </ContactContainer>
     </>
   );
@@ -66,6 +66,7 @@ const ContactContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-items: center;
 
   h1 {
     text-transform: uppercase;
@@ -77,7 +78,7 @@ const ContactContainer = styled.div`
     z-index: 2;
     position: relative;
     display: flex;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -105,7 +106,7 @@ const ContactContainer = styled.div`
 `;
 
 const LeftSide = styled.div`
-  width: 35%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -175,18 +176,18 @@ const RightSide = styled.div`
   }
 `;
 
-const FormInput = styled.input`
-  padding: 1.4rem 0px;
-  width: 100%;
-  border-radius: 3px;
-  border: 1px solid rgba(72, 72, 72, 1);
-  color: var(--textcolor);
-  background-color: #000000;
+// const FormInput = styled.input`
+//   padding: 1.4rem 0px;
+//   width: 100%;
+//   border-radius: 3px;
+//   border: 1px solid rgba(72, 72, 72, 1);
+//   color: var(--textcolor);
+//   background-color: #000000;
 
-  @media screen and (max-width: 900px) {
-    label{
-      color: red;
-    }
+//   @media screen and (max-width: 900px) {
+//     label{
+//       color: red;
+//     }
    
-  }
-`;
+//   }
+// `;

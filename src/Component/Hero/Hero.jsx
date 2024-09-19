@@ -3,17 +3,18 @@ import Navbar from "../Navbar/Navbar";
 import styled from "styled-components";
 import { FiDownload } from "react-icons/fi";
 import { Typewriter } from "react-simple-typewriter";
+// import backGroundH from "public/Image/coding.jpg";
 
 export const Button = styled.button`
   all: unset;
   display: flex;
-  gap: 5px;
+  gap: 4px;
   justify-content: center;
   align-items: center;
   background-color: var(--theme);
   color: var(--text-color);
-  padding: 20px 40px;
-  border-radius: 3px;
+  padding: 10px 30px;
+  border-radius: 6px;
   cursor: pointer;
 
   @media screen and (max-width: 500px) {
@@ -26,7 +27,9 @@ export const Button = styled.button`
 export function Hero() {
   return (
     <>
-      <HeroContainer className=" h-screen ">
+      <HeroContainer className=" h-screen " style={{ 
+      backgroundImage: `url("/Image/coding.jpg")` 
+    }}>
         <Navbar />
 
         <Main>
@@ -34,10 +37,10 @@ export function Hero() {
             <h1 className=" text-3xl mb-0 ">
               Hello! 
               <br/>
-              I'm <span>Olawale Fakorede</span>
+              I am <span>Olawale Fakorede</span>
             </h1>
             <h2 id="h2" className="mb-0 ">
-              And I'm {" "}
+              And I am {" "}
               <span className="typedeffect text-xl md:text-2xl lg:text-3xl">
                 <Typewriter
                   className="  xs:text-yellow-400"
@@ -51,10 +54,11 @@ export function Hero() {
                 />
               </span>
             </h2>
-            <p className="text-sm md:text-lg lg:text-xl  mb-9">
-              Hi!!, i am a passionate frontend developer . 
-              A Frontend Developer focuses on creating and optimizing the user-facing aspects of websites, 
-              ensuring they are visually appealing and user-friendly.
+            <p className="text-sm md:text-lg lg:text-xl font-bold mb-9">
+              Hi!!, i am a passionate Fullstack developer . 
+              A Fullstack Developer focuses on creating and optimizing the user-facing aspects of websites, 
+              ensuring they are visually appealing and user-friendly, 
+              also creating the database for storing data and easy consumption in the frontend....
              
             </p>
             <a
@@ -62,7 +66,7 @@ export function Hero() {
               download="Resume.pdf"
               className=" no-underline"
             >
-              <Button className="h-5 w-10">
+              <Button className="h-3 w-7">
                 <FiDownload />
                 My Resume
               </Button>

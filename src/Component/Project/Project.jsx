@@ -17,10 +17,10 @@ function Project() {
                     {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Cupiditate, facilis. */}
                   </p>
-                  <div className="grid grid-cols-2 gap-16 md:flex md:gap-72 lg:flex lg:gap-96 pl-7 mt-4">
-                    <a className="text-white bg-red-600 no-underline p-2 " href={dat.demo} target="_blank">Demo</a>
-                    <a className="text-white bg-red-600 no-underline p-2" href={dat.githubLink} target="_blank">Github</a>
-                  </div>
+                  {/* <div className="grid grid-cols-2 gap-16 md:grid md:grid-cols-2 md:gap-72 lg:grid lg:grid-cols-2 lg:gap-80 pl-5 mt-4"> */}
+                    <a className="text-white bg-red-600 no-underline p-2 border-1 rounded-md w-52 mr-44" href={dat.demo} target="_blank">Demo</a>
+                    <a className="text-white bg-red-600 no-underline p-2 border-1 rounded-md w-52" href={dat.githubLink} target="_blank">Github</a>
+                  {/* </div> */}
                 </div>
               </Card>
             );
@@ -45,7 +45,7 @@ const MainCotainer = styled.div`
   h1 {
     text-transform: uppercase;
     text-shadow: 0 0 3px var(--text-color);
-    font-size: 4rem;
+    font-size: 3rem;
   }
 `;
 const ProjectCard = styled.div`
